@@ -52,8 +52,8 @@ var Hyperlink = function (_Component) {
   }
 
   _createClass(Hyperlink, [{
-    key: 'componentWillReceiveProps',
-    value: function componentWillReceiveProps() {
+    key: 'UNSAFE_componentWillReceiveProps',
+    value: function UNSAFE_componentWillReceiveProps() {
       var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
           _ref$linkify = _ref.linkify,
           linkify = _ref$linkify === undefined ? require('linkify-it')() : _ref$linkify;
